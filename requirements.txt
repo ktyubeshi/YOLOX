@@ -1,10 +1,15 @@
 # TODO: Update with exact module version
+
+# If you are using CUDA, you need to manually install the CUDA-compatible version.
+# https://pytorch.org
+#
+# torch>=1.7　
+# torchvision
+
 numpy
-torch>=1.7
 opencv_python
 loguru
 tqdm
-torchvision
 thop
 ninja
 tabulate
@@ -14,5 +19,5 @@ tensorboard
 # verified versions
 # pycocotools corresponds to https://github.com/ppwwyyxx/cocoapi
 pycocotools>=2.0.2
-onnx>=1.13.0
-onnx-simplifier==0.4.10
+# onnx>=1.13.0
+# onnx-simplifier==0.4.10
